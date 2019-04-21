@@ -1,0 +1,3 @@
+#changing the default "unidentified network" for the "vEthernet (DockerNAT)" card to private via this PowerShell
+
+Set-NetConnectionProfile -interfacealias "vEthernet (DockerNAT)" -NetworkCategory Private
